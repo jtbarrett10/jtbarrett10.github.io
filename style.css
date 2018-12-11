@@ -1,0 +1,117 @@
+* {
+	font-family: 'Press Start 2P', cursive;
+}
+
+body {
+	margin: auto 0;
+}
+
+.zone {
+	text-align: center;
+	font-size:3em;
+}
+
+.box {
+	text-align: center;
+	font-size:3em;
+    border-radius:4px;
+}
+
+/* NAV BAR */
+.mainnav {
+	display: flex;
+	list-style: none;
+	align-items: center;
+	margin: 0;
+}
+
+li {
+	padding: 25px 25px;
+	font-size: 0.4em;
+}
+
+#title {
+	padding-left: 12px;
+	font-size: 0.7em;
+}
+
+/* COVER WINDOW */
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50vh;
+}
+
+/* CONTENT GRID */
+.grid-wrapper {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr))
+}
+
+.box > img {
+	width: 100%;
+	vertical-align: middle;
+}
+
+.box {
+	padding: 80px;
+	margin: 20px;
+	box-shadow:rgba(0,0,0,0.8) 0px 1px 1px;
+}
+
+.box:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.palegrey {
+	background-color: #e3e5e8;
+}
+
+/* FOOTER */
+.foot {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px 10px;
+}
+
+/*Screen smaller than 600px wide*/
+@media only screen and (max-width: 600px) {
+	li {
+		padding: 12px;
+		font-size: 0.3em;
+	}
+
+	#title {
+		padding-left: 0px;
+		font-size: .5em;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	li {
+		padding: 12px;
+		font-size: 0.2em;
+	}
+}
+
+.lighturple {
+	background-color: #e7b9ff;
+}
+
+.babyblue {
+	background-color: #bbdefb;
+}
+
+.palegreen {
+	background-color: #ccff90;
+}
+
+.paleyellow {
+	background-color: #ffffbf;
+}
+
